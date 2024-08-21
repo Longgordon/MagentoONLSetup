@@ -594,3 +594,57 @@
 [2024-08-20T02:20:23.660167+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalogsearch_fulltext_cl_4"}} []
 [2024-08-20T02:20:23.660807+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalogsearch_fulltext_cl_5"}} []
 [2024-08-21T06:57:31.591518+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /var/www/html/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-08-21T07:40:47.766643+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.789817+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.791578+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.793144+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.794689+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.796072+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.797776+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.799312+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.800742+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.802245+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.804169+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.806096+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.830915+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.832982+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-08-21T07:40:47.834930+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:05.021116+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /var/www/html/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-08-21T07:41:10.309218+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:24.037843+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_1"}} []
+[2024-08-21T07:41:24.039241+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_2"}} []
+[2024-08-21T07:41:24.040018+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_3"}} []
+[2024-08-21T07:41:24.040745+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_4"}} []
+[2024-08-21T07:41:24.041435+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_5"}} []
+[2024-08-21T07:41:27.273682+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.291947+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.293650+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.295098+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.297515+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.299448+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.300931+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.302374+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.303900+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.305315+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.306689+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.308549+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.310473+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.312126+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-08-21T07:41:27.313633+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-08-21T08:01:16.783662+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /var/www/html/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-08-21T08:01:28.256673+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-08-21T08:01:28.261752+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2024-08-21T08:19:25.170272+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-08-21T08:19:25.175501+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-08-21T08:19:25.176402+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-08-21T08:20:41.034390+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /var/www/html/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode(Object(Symfony\Component\Console\Input\ArgvInput))
+#1 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DeployStaticContentCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
