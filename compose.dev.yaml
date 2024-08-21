@@ -2,6 +2,7 @@ services:
   app:
     volumes: &appvolumes
       ## Host mounts with performance penalty, only put what is necessary here
+      - ./src:/var/www/html:cached
       - ./src/app/code:/var/www/html/app/code:cached
       - ./src/app/design:/var/www/html/app/design:cached
       - ./src/app/etc:/var/www/html/app/etc:cached
@@ -12,7 +13,7 @@ services:
       - ./src/dev/tools/grunt/configs:/var/www/html/dev/tools/grunt/configs:cached
       - ./src/nginx.conf.sample:/var/www/html/nginx.conf:cached
       - ./src/package.json.sample:/var/www/html/package.json:cached
-      #- ./src/auth.json:/var/www/html/auth.json:cached
+      - ./src/auth.json:/var/www/html/auth.json:cached
       #- ./src/m2-hotfixes:/var/www/html/m2-hotfixes:cached
       #- ./src/patches:/var/www/html/patches:cached
       #- ./src/var/log:/var/www/html/var/log:cached

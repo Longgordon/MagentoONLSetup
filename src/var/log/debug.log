@@ -593,3 +593,4 @@
 [2024-08-20T02:20:23.659528+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalogsearch_fulltext_cl_3"}} []
 [2024-08-20T02:20:23.660167+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalogsearch_fulltext_cl_4"}} []
 [2024-08-20T02:20:23.660807+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_catalogsearch_fulltext_cl_5"}} []
+[2024-08-21T06:57:31.591518+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /var/www/html/vendor/magento/framework/Code/Generator.php:223)"} []
