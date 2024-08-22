@@ -3,6 +3,7 @@ services:
     volumes: &appvolumes
       ## Host mounts with performance penalty, only put what is necessary here
       # - ./src/pub:/var/www/html/pub:cached
+      # - ./src:/var/www/html:cached
       - ./src/app/code:/var/www/html/app/code:cached
       - ./src/app/design:/var/www/html/app/design:cached
       - ./src/app/etc:/var/www/html/app/etc:cached
