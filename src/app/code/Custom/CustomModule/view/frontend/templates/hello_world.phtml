@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html style="margin-top: 200px">
+<h1>Hello World</h1>
+<!-- <div id="weather"></div> -->
+<section class="border-clock"></section>
+<section class="clock">
+    <ul>
+        <li><i>12</i></li>
+        <li><i>1</i></li>
+        <li><i>2</i></li>
+        <li><i>3</i></li>
+        <li><i>4</i></li>
+        <li><i>5</i></li>
+        <li><i>6</i></li>
+        <li><i>7</i></li>
+        <li><i>8</i></li>
+        <li><i>9</i></li>
+        <li><i>10</i></li>
+        <li><i>11</i></li>
+    </ul>
+
+    <h2>ophelia</h2>
+    <h3>fournier-laflamme</h3>
+
+    <output class="date"></output>
+
+    <div class="minutes"></div>
+    <div class="hours"></div>
+    <div class="seconds"></div>
+    <div class="cercle"></div>
+
+</section>
+<script>
+    require(['jquery'], function($) {
+        $(document).ready(function() {
+            console.log("Hello World");
+            // $.simpleWeather({
+            //     location: "Austin, TX",
+            //     woeid: "",
+            //     unit: "f",
+            //     success: function(weather) {
+            //         html =
+            //             '<h2><i class="icon-' +
+            //             weather.code +
+            //             '"></i> ' +
+            //             weather.temp +
+            //             "&deg;" +
+            //             weather.units.temp +
+            //             "</h2>";
+            //         html += "<ul><li>" + weather.city + ", " + weather.region + "</li>";
+            //         html += '<li class="currently">' + weather.currently + "</li>";
+            //         html +=
+            //             "<li>" +
+            //             weather.wind.direction +
+            //             " " +
+            //             weather.wind.speed +
+            //             " " +
+            //             weather.units.speed +
+            //             "</li></ul>";
+
+            //         $("#weather").html(html);
+            //     },
+            //     error: function(error) {
+            //         $("#weather").html("<p>" + error + "</p>");
+            //     },
+            // });
+        });
+    })
+</script>
+
+</html>

@@ -21,6 +21,7 @@ services:
       - ~/.ssh/id_rsa:/var/www/.ssh/id_rsa:cached
       - ~/.ssh/known_hosts:/var/www/.ssh/known_hosts:cached
       # - ./src:/var/www/html:cached
+      # - ./src/pub:/var/www/html/pub:cached
       - appdata:/var/www/html
       - sockdata:/sock
       - ssldata:/etc/nginx/certs
