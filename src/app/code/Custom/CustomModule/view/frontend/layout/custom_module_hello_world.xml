@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/simpleweather/3.1.0/jquery.simpleWeather.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js" src_type="url"/> -->
+        <!-- <title>Custom Module Hello World</title> -->
+        <css src="Custom_CustomModule::css/style.css"/>
+        <css src="Custom_CustomModule::css/clock.css"/>
+        <css src="Custom_CustomModule::js/clock.js"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Custom\CustomModule\Block\HelloWorld" name="custom.module.hello.world" template="hello_world.phtml" />
+        </referenceContainer>
+    </body>
+</page>

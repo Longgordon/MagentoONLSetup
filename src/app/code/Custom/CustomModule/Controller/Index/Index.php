@@ -1,11 +1,11 @@
 <?php
 
-namespace Custom\CustomModule\Controller\Hello;
+namespace Custom\CustomModule\Controller\Index;
 
-use Magento\Framework\View\Result\PageFactory;
 use Magento\Framework\App\ActionInterface;
+use Magento\Framework\View\Result\PageFactory;
 
-class World implements ActionInterface
+class Index implements ActionInterface
 {
     protected $_pageFactory;
 
