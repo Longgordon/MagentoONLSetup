@@ -13,28 +13,30 @@ class UpgradeSchema implements UpgradeSchemaInterface
     {
         $setup->startSetup();
 
-        $connection = $setup->getConnection();
-        $customTable = $setup->getTable('custom_table');
+        if (version_compare($context->getVersion(), '2.0.1', '<')) {
+            $connection = $setup->getConnection();
+            $customTable = $setup->getTable('custom_table');
 
-        if ($connection->isTableExists($customTable)) : exit;
-        endif;
+            if ($connection->isTableExists($customTable)) : exit;
+            endif;
 
-        $table = $connection->newTable("custom_table")
-            ->addColumn(
-                "id_custom",
-                Table::TYPE_INTEGER,
-                null,
-                ["identity" => true, "unsigned" => true, "nullable" => false, "primary" => true],
-                "ID"
-            )
-            ->addColumn(
-                "name_custom",
-                Table::TYPE_TEXT,
-                255,
-                ["nullable" => false]
-            )
-            ->setOption("charset", "utf8");
-        $connection->createTable($table);
+            $table = $connection->newTable("custom_table")
+                ->addColumn(
+                    "id_custom",
+                    Table::TYPE_INTEGER,
+                    null,
+                    ["identity" => true, "unsigned" => true, "nullable" => false, "primary" => true],
+                    "ID"
+                )
+                ->addColumn(
+                    "name_custom",
+                    Table::TYPE_TEXT,
+                    255,
+                    ["nullable" => false]
+                )
+                ->setOption("charset", "utf8");
+            $connection->createTable($table);
+        }
 
         $setup->endSetup();
     }
