@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Custom_CustomModule::custom_table" title="Custom table backend" module="Custom_CustomModule" sortOrder="30" action="custom_module/index/index" resource="Custom_CustomModule::custom_table"/>
+        <add id="Custom_CustomModule::custom_table_list" title="Custom table list" parent="Custom_CustomModule::custom_table" module="Custom_CustomModule" sortOrder="30" action="custom_module/index/index/list" resource="Custom_CustomModule::custom_table"/>
+        
+    </menu>
+</config>
