@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::custom_table" title="Table" translate="title" sortOrder="10">
+                    <resource id="Custom_CustomModule::custom_table_save" title="Save Table" translate="title" sortOrder="10">
+                        <resource id="Custom_CustomModule::custom_table_save_design" title="Edit Table Design" translate="title" />
+                    </resource>
+                    
+                    <resource id="Custom_CustomModule::custom_table_delete" title="Delete Table" translate="title" sortOrder="20" />
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
