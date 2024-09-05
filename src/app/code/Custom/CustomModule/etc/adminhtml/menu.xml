@@ -9,6 +9,6 @@
     <menu>
         <add id="Custom_CustomModule::custom_table" title="Custom table backend" module="Custom_CustomModule" sortOrder="30" action="custom_module/index/index" resource="Custom_CustomModule::custom_table"/>
         <add id="Custom_CustomModule::custom_table_list" title="Custom table list" parent="Custom_CustomModule::custom_table" module="Custom_CustomModule" sortOrder="30" action="custom_module/index/index/list" resource="Custom_CustomModule::custom_table"/>
-        
+        <add id="Custom_CustomModule::custom_table_save" title="New table" module="Custom_CustomModule" action="custom_module/index/new" resource="Custom_CustomModule::custom_table_save" parent="Custom_CustomModule::custom_table"/>
     </menu>
 </config>
